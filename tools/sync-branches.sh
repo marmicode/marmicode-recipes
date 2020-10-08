@@ -29,4 +29,6 @@ function cascade_changes() {
 cascade_changes --skip-tests \
   master \
   angular-boilerplate \
-  angular-jest-boilerplate
+  angular-jest-boilerplate \
+  angular-jest-mocking-service-1 \
+  angular-jest-mocking-service-2
