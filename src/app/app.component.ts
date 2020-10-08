@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'mc-app',
+  template: `<h1>👨🏻‍🍳</h1>`,
 })
-export class AppComponent {
-  title = 'marmicode-recipes';
-}
+export class AppComponent {}
