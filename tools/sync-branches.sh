@@ -26,7 +26,7 @@ function cascade_changes() {
 
 }
 
-cascade_changes --skip-tests \
+cascade_changes \
   master \
   angular-boilerplate \
   angular-jest-boilerplate \
