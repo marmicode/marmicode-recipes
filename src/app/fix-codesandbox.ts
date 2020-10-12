@@ -4,6 +4,9 @@ import {
   platformBrowserDynamicTesting,
 } from '@angular/platform-browser-dynamic/testing';
 
+import 'reflect-metadata';
+import 'zone.js/dist/zone';
+
 /* Initialize TestBed when using jest-lite on codesandbox.
  * Cf. https://github.com/codesandbox/codesandbox-client/issues/4987 */
 if (!navigator.userAgent.toLowerCase().includes('jsdom')) {
