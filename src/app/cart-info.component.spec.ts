@@ -1,7 +1,6 @@
+import './fix-codesandbox';
 import { CartInfoComponent } from './cart-info.component';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import './fix-codesandbox';
 
 describe('CartInfoComponent', () => {
   let fixture: ComponentFixture<CartInfoComponent>;
